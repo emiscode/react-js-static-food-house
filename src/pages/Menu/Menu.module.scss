@@ -1,13 +1,13 @@
 @import "styles/variables";
 
-.menu {
+.navmenu {
   display: flex;
   align-items: center;
   padding: 20px $padding-h;
 }
 
-.menu h1 {
-  color: #e53f33;
+.navmenu h1 {
+  color: $primaryColor;
   font-size: 2rem;
   margin-left: 16px;
 }
@@ -19,11 +19,23 @@
   padding: 0 $padding-h;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: inset 0em 0em 4em $lightColor;
   background-image: url("/assets/menu/header.png");
   &__text {
     width: 40%;
-    color: #352d29;
+    color: $darkColor;
     font-size: 4rem;
     min-width: 400px;
   }
+}
+
+.menu {
+  padding: 64px $padding-h;
+}
+
+.menu h3 {
+  font-size: 2rem;
+  padding-bottom: 8px;
+  font-family: "Dosis";
+  color: $primaryColor;
 }

@@ -1,0 +1,13 @@
+@import "styles/variables";
+
+.finder input {
+  width: 40%;
+  padding: 8px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: $darkColor;
+  margin-right: -32px;
+  padding-bottom: -32px;
+  background-color: $lightColor;
+}
