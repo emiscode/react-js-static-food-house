@@ -1,0 +1,29 @@
+@import "styles/variables";
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 20px $padding-h;
+}
+
+.menu h1 {
+  color: #e53f33;
+  font-size: 2rem;
+  margin-left: 16px;
+}
+
+.header {
+  display: flex;
+  height: 256px;
+  align-items: center;
+  padding: 0 $padding-h;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/menu/header.png");
+  &__text {
+    width: 40%;
+    color: #352d29;
+    font-size: 4rem;
+    min-width: 400px;
+  }
+}
