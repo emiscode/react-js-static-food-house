@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Starters",
+    "id": 1
+  },
+  {
+    "label": "Pasta",
+    "id": 2
+  },
+  {
+    "label": "Steaks",
+    "id": 3
+  },
+  {
+    "label": "Salads",
+    "id": 4
+  },
+  {
+    "label": "Seadfood",
+    "id": 5
+  },
+  {
+    "label": "Specials",
+    "id": 6
+  },
+  {
+    "label": "Desserts",
+    "id": 7
+  }
+]

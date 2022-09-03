@@ -1,0 +1,65 @@
+@import "styles/variables";
+
+.container {
+  width: auto;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  position: absolute;
+  right: $padding-h;
+  margin-top: -128px;
+  padding: 0;
+  border: none;
+}
+
+.sorter {
+  width: auto;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 0;
+  border: none;
+  &__options {
+    text-align: left;
+    display: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Dosis";
+    padding: 0;
+  }
+  &__options--active {
+    display: block;
+  }
+}
+
+.sorter span {
+  width: 100%;
+  padding: 8px;
+}
+
+.sorter--active span {
+  background-color: $primaryColor;
+}
+
+.sorter__option {
+  padding: 16px;
+}
+
+.sorter__option:hover {
+  color: white;
+  background-color: $primaryColor;
+}
+
+.sorter__option--active {
+  color: white;
+  background-color: $primaryColor;
+}
+
+.clear {
+  display: none;
+  margin-top: 8px;
+}
+
+.clear--active {
+  display: block;
+}
