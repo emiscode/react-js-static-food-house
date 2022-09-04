@@ -13,6 +13,9 @@ interface Props {
 export default function Sorter({ sorter, setSorter }: Props) {
   const [open, setOpen] = useState(false);
 
+  const sorterName =
+    sorter && options.find((option) => option.value === sorter)?.name;
+
   return (
     <div className={styles.container}>
       <button
@@ -24,7 +27,8 @@ export default function Sorter({ sorter, setSorter }: Props) {
         onBlur={() => setOpen(false)}
       >
         <span>
-          Sort by {open ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+          {sorterName || "Sort by"}{" "}
+          {open ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </span>
         <div
           className={classNames({

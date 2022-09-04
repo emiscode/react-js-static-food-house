@@ -1,0 +1,41 @@
+[
+  {
+    "title": "title 1",
+    "description": "description",
+    "photo": "photo",
+    "size": "size",
+    "serving": "serving",
+    "price": "price",
+    "id": "id",
+    "category": {
+      "id": "id",
+      "label": "label"
+    }
+  },
+  {
+    "title": "title 2",
+    "description": "description",
+    "photo": "photo",
+    "size": "size",
+    "serving": "serving",
+    "price": "price",
+    "id": "id",
+    "category": {
+      "id": "id",
+      "label": "label"
+    }
+  },
+  {
+    "title": "title 3",
+    "description": "description",
+    "photo": "photo",
+    "size": "size",
+    "serving": "serving",
+    "price": "price",
+    "id": "id",
+    "category": {
+      "id": "id",
+      "label": "label"
+    }
+  }
+]
