@@ -1,41 +1,157 @@
 [
   {
-    "title": "title 1",
-    "description": "description",
-    "photo": "photo",
-    "size": "size",
-    "serving": "serving",
-    "price": "price",
-    "id": "id",
+    "title": "Chicken Wings",
+    "description": "sliced pretzel rolls, melled provolone, house-made ranch. Served with mariana sauce.",
+    "photo": "assets/dishes/chicken-wings.jpeg",
+    "size": "300",
+    "serving": "1",
+    "price": "4.99",
+    "id": "1",
     "category": {
-      "id": "id",
-      "label": "label"
+      "id": "1",
+      "label": "Starters"
     }
   },
   {
-    "title": "title 2",
-    "description": "description",
-    "photo": "photo",
-    "size": "size",
-    "serving": "serving",
-    "price": "price",
-    "id": "id",
+    "title": "Fish & Chips",
+    "description": "2 pieces of batter-dippedn haddock serverd with fries and tartar sauce.",
+    "photo": "assets/dishes/fish-chips.jpeg",
+    "size": "350",
+    "serving": "1",
+    "price": "10.99",
+    "id": "2",
     "category": {
-      "id": "id",
-      "label": "label"
+      "id": "1",
+      "label": "Starters"
     }
   },
   {
-    "title": "title 3",
-    "description": "description",
-    "photo": "photo",
-    "size": "size",
-    "serving": "serving",
-    "price": "price",
-    "id": "id",
+    "title": "Fettuccine Alfredo",
+    "description": "a classic, rich and creamy sauce tossed with garlic Parmesan and Romano cheeses",
+    "photo": "assets/dishes/fettuccinne-pasta.jpeg",
+    "size": "650",
+    "serving": "2",
+    "price": "17.90",
+    "id": "3",
     "category": {
-      "id": "id",
-      "label": "label"
+      "id": "2",
+      "label": "Pasta"
+    }
+  },
+  {
+    "title": "Agnolotti",
+    "description": "house-made pasta filled with spinach, ticotta cheese, and topped with our Alfredo sauce.",
+    "photo": "assets/dishes/agnolotti-pasta.jpeg",
+    "size": "650",
+    "serving": "2",
+    "price": "19.90",
+    "id": "4",
+    "category": {
+      "id": "2",
+      "label": "Pasta"
+    }
+  },
+  {
+    "title": "New York Strip",
+    "description": "16 oz USDA Prime, richly flavored, slightly firmer",
+    "photo": "assets/dishes/steak.png",
+    "size": "280",
+    "serving": "1",
+    "price": "19.90",
+    "id": "5",
+    "category": {
+      "id": "3",
+      "label": "Steaks"
+    }
+  },
+  {
+    "title": "Porterhouse",
+    "description": "40 oz USDA Prime, richness of a strip, tenderness of a filet",
+    "photo": "assets/dishes/porterhouse-steak.png",
+    "size": "500",
+    "serving": "2",
+    "price": "34.90",
+    "id": "6",
+    "category": {
+      "id": "3",
+      "label": "Steaks"
+    }
+  },
+  {
+    "title": "Caesar Salad",
+    "description": "romaine hearts, parmesan & romano, creamy caesar",
+    "photo": "assets/dishes/caesar-salad.png",
+    "serving": "1",
+    "price": "5.90",
+    "id": "7",
+    "category": {
+      "id": "4",
+      "label": "Salads"
+    }
+  },
+  {
+    "title": "Ruth`s Chopped Salad",
+    "description": "bacon, egg, olives, mushrooms, bleu cheese, basil dressing",
+    "photo": "assets/dishes/ruth-salad.jpeg",
+    "size": "300",
+    "serving": "2",
+    "price": "11.90",
+    "id": "8",
+    "category": {
+      "id": "4",
+      "label": "Salads"
+    }
+  },
+  {
+    "title": "King Salmon & Shrimp",
+    "description": "lightly blackened, topped with shrimp & new orleans bbq butter",
+    "photo": "assets/dishes/king-salmon.jpeg",
+    "size": "300",
+    "serving": "1",
+    "price": "15.90",
+    "id": "9",
+    "category": {
+      "id": "5",
+      "label": "Seafood"
+    }
+  },
+  {
+    "title": "Garlic Crusted Sea Bass",
+    "description": "tender fillet, topped with a panko garlic crust & lemon butter",
+    "photo": "assets/dishes/garlic-sea-bass.jpeg",
+    "size": "300",
+    "serving": "1",
+    "price": "17.90",
+    "id": "10",
+    "category": {
+      "id": "5",
+      "label": "Seafood"
+    }
+  },
+  {
+    "title": "Stuffed Chicken Breast",
+    "description": "oven roasted double breast, garlic-herb cheese, lemon butter",
+    "photo": "assets/dishes/stuffed-chicken-breast.jpeg",
+    "size": "500",
+    "serving": "2",
+    "price": "28.90",
+    "id": "11",
+    "category": {
+      "id": "6",
+      "label": "Specials"
+    }
+  },
+  {
+    "title": "Mushrooms Stuffed with Crabmeat",
+    "description": "broiled & topped with romano cheese",
+    "photo": "assets/dishes/mushroom-stuffed.jpeg",
+    "size": "380",
+    "serving": "1",
+    "price": "11.90",
+    "id": "12",
+    "category": {
+      "id": "6",
+      "label": "Specials"
     }
   }
 ]

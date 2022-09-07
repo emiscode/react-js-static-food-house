@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import styles from "./Item.module.scss";
 
 interface Props {
@@ -5,6 +6,8 @@ interface Props {
 }
 
 export default function Item({ item }: Props) {
+  const itemCategory = item.category.label.toLowerCase();
+
   return (
     <div className={styles.item}>
       <div className={styles.item__photo}>
@@ -16,10 +19,22 @@ export default function Item({ item }: Props) {
           <p>{item.description}</p>
         </div>
         <div className={styles.item__tags}>
-          <div className={styles.item__category}>{item.category.label}</div>
-          <div className={styles.item__portion}>{item.size}</div>
-          <div className={styles.item__howmanypeople}>{item.serving}</div>
-          <div className={styles.item__price}>{item.price}</div>
+          <div
+            className={classNames({
+              [styles.item__category]: true,
+              [styles[`item__category__${itemCategory}`]]: true,
+            })}
+          >
+            {item.category.label}
+          </div>
+          <div className={styles.item__portion}>{item.size}g</div>
+          <div className={styles.item__howmanypeople}>
+            {item.serving}
+            <span className={styles.item__serving}>
+              {item.serving.toString() === "1" ? "person" : "people"}
+            </span>
+          </div>
+          <div className={styles.item__price}>${item.price}</div>
         </div>
       </div>
     </div>
