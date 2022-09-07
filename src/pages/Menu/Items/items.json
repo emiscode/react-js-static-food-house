@@ -2,7 +2,7 @@
   {
     "title": "Chicken Wings",
     "description": "sliced pretzel rolls, melled provolone, house-made ranch. Served with mariana sauce.",
-    "photo": "assets/dishes/chicken-wings.jpeg",
+    "photo": "/assets/dishes/chicken-wings.jpeg",
     "size": "300",
     "serving": "1",
     "price": "4.99",
@@ -15,7 +15,7 @@
   {
     "title": "Fish & Chips",
     "description": "2 pieces of batter-dippedn haddock serverd with fries and tartar sauce.",
-    "photo": "assets/dishes/fish-chips.jpeg",
+    "photo": "/assets/dishes/fish-chips.jpeg",
     "size": "350",
     "serving": "1",
     "price": "10.99",
@@ -28,7 +28,7 @@
   {
     "title": "Fettuccine Alfredo",
     "description": "a classic, rich and creamy sauce tossed with garlic Parmesan and Romano cheeses",
-    "photo": "assets/dishes/fettuccinne-pasta.jpeg",
+    "photo": "/assets/dishes/fettuccinne-pasta.jpeg",
     "size": "650",
     "serving": "2",
     "price": "17.90",
@@ -41,7 +41,7 @@
   {
     "title": "Agnolotti",
     "description": "house-made pasta filled with spinach, ticotta cheese, and topped with our Alfredo sauce.",
-    "photo": "assets/dishes/agnolotti-pasta.jpeg",
+    "photo": "/assets/dishes/agnolotti-pasta.jpeg",
     "size": "650",
     "serving": "2",
     "price": "19.90",
@@ -54,7 +54,7 @@
   {
     "title": "New York Strip",
     "description": "16 oz USDA Prime, richly flavored, slightly firmer",
-    "photo": "assets/dishes/steak.png",
+    "photo": "/assets/dishes/steak.png",
     "size": "280",
     "serving": "1",
     "price": "19.90",
@@ -67,7 +67,7 @@
   {
     "title": "Porterhouse",
     "description": "40 oz USDA Prime, richness of a strip, tenderness of a filet",
-    "photo": "assets/dishes/porterhouse-steak.png",
+    "photo": "/assets/dishes/porterhouse-steak.png",
     "size": "500",
     "serving": "2",
     "price": "34.90",
@@ -80,7 +80,7 @@
   {
     "title": "Caesar Salad",
     "description": "romaine hearts, parmesan & romano, creamy caesar",
-    "photo": "assets/dishes/caesar-salad.png",
+    "photo": "/assets/dishes/caesar-salad.png",
     "serving": "1",
     "price": "5.90",
     "id": "7",
@@ -92,7 +92,7 @@
   {
     "title": "Ruth`s Chopped Salad",
     "description": "bacon, egg, olives, mushrooms, bleu cheese, basil dressing",
-    "photo": "assets/dishes/ruth-salad.jpeg",
+    "photo": "/assets/dishes/ruth-salad.jpeg",
     "size": "300",
     "serving": "2",
     "price": "11.90",
@@ -105,7 +105,7 @@
   {
     "title": "King Salmon & Shrimp",
     "description": "lightly blackened, topped with shrimp & new orleans bbq butter",
-    "photo": "assets/dishes/king-salmon.jpeg",
+    "photo": "/assets/dishes/king-salmon.jpeg",
     "size": "300",
     "serving": "1",
     "price": "15.90",
@@ -118,7 +118,7 @@
   {
     "title": "Garlic Crusted Sea Bass",
     "description": "tender fillet, topped with a panko garlic crust & lemon butter",
-    "photo": "assets/dishes/garlic-sea-bass.jpeg",
+    "photo": "/assets/dishes/garlic-sea-bass.jpeg",
     "size": "300",
     "serving": "1",
     "price": "17.90",
@@ -131,7 +131,7 @@
   {
     "title": "Stuffed Chicken Breast",
     "description": "oven roasted double breast, garlic-herb cheese, lemon butter",
-    "photo": "assets/dishes/stuffed-chicken-breast.jpeg",
+    "photo": "/assets/dishes/stuffed-chicken-breast.jpeg",
     "size": "500",
     "serving": "2",
     "price": "28.90",
@@ -144,7 +144,7 @@
   {
     "title": "Mushrooms Stuffed with Crabmeat",
     "description": "broiled & topped with romano cheese",
-    "photo": "assets/dishes/mushroom-stuffed.jpeg",
+    "photo": "/assets/dishes/mushroom-stuffed.jpeg",
     "size": "380",
     "serving": "1",
     "price": "11.90",
