@@ -81,6 +81,7 @@
     "title": "Caesar Salad",
     "description": "romaine hearts, parmesan & romano, creamy caesar",
     "photo": "/assets/dishes/caesar-salad.png",
+    "size": "90",
     "serving": "1",
     "price": "5.90",
     "id": "7",
